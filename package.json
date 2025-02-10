@@ -1,0 +1,37 @@
+{
+  "name": "ziplist_final",
+  "version": "1.0.0",
+  "description": "Sample package.json for eslint",
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.3.0",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "lint": "eslint *.ts",
+    "lint-fix": "eslint *.ts --fix"
+  },
+  "private": true,
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydenh0925/ziplist.git"
+  },
+  "author": "Jayden Huynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydenh0925/ziplist/issues"
+  },
+  "homepage": "https://github.com/jaydenh0925/ziplist#readme",
+  "dependencies": {
+    "react-dom": "^19.0.0"
+  }
+}
